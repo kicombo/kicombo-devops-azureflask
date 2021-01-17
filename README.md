@@ -15,9 +15,9 @@ When an outdated runtime is hidden from the Portal, any of your existing sites u
 If you need to create another web app with an outdated runtime version that is no longer shown on the Portal see the language configuration guides for instructions on how to get the runtime version of your site. You can use the Azure CLI to create another site with the same runtime. Alternatively, you can use the Export Template button on the web app blade in the Portal to export an ARM template of the site. You can re-use this template to deploy a new site with the same runtime and configuration.
 
 ## Set up your initial environment
-1.Have an Azure account with an active subscription. Create an account for free.
-2.Install Python 3.6 or higher.
-3.Install the Azure CLI 2.0.80 or higher, with which you run commands in any shell to provision and configure Azure resources.
+1. Have an Azure account with an active subscription. Create an account for free.
+2. Install Python 3.6 or higher.
+3. Install the Azure CLI 2.0.80 or higher, with which you run commands in any shell to provision and configure Azure resources.
 
 ## Install the Azure CLI on Linux
 Run `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash` in terminal. Use `sudo dpkg --configure -a` if necessary.
