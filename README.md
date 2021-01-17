@@ -44,6 +44,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 flask run
 ```
+The flask-specific part of this repo is that the name of the flask app in app.py is app, the filename is app.py, and requirements.txt. All the content in requirements.txt is installed by pip.
 
 ## Deploy the sample
 Deploy the code in your local folder (python-docs-hello-world) using the `az webapp up` command:
