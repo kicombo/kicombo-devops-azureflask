@@ -44,7 +44,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 flask run
 ```
-The flask-specific part of this repo is that the name of the flask app in app.py is app, the filename is app.py, and requirements.txt. All the content in requirements.txt is installed by pip.
+The flask-specific part of this repo is that the name of the flask app is app, that the filename is app.py, and taht there is requirements.txt. All the content in requirements.txt is automatically installed in Azure web app, and the startup command is automatically set to app:app for gunicorn. The startup command can be edited in your webapp > Configuration > General settings > Startup Command.
 
 ## Deploy the sample
 Deploy the code in your local folder (python-docs-hello-world) using the `az webapp up` command:
